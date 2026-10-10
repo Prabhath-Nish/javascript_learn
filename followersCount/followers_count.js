@@ -19,3 +19,9 @@ function checkCountValue(){
     }
 }
 
+function resetCount(){
+    count = 0;
+    alert("The Followers count has been reset.");
+    displayCount();
+}
+
